@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visited places</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="app-container">
+
+        <aside class="control-panel">
+
+       <div class="form-group">
+        <label>visited place description</label>
+        <input type="text" id="t-desc" placeholder="multiple places of the destination">
+       </div> 
+
+       <div class="form-group">
+        <label>Category</label>
+        <select id="t-category">
+            <option value="city">City🌆</option>
+            <option value="beach">Beach⛱️🌞</option>
+            <option value="mountains">Hiking⛰️</option>
+            <option value="safari">Safari🦁</option>
+        </select>
+       </div>
+
+       <div class="form-group">
+            <label>Experience</label>
+            <select id="t-experience">
+                <option value="great">Great🤗</option>
+                <option value="good">Good😌</option>
+                <option value="bad">Bad😩</option>
+                <option value="worst">Worst😡</option>
+            </select>
+       </div>
+
+       <button class="btn-add" onclick="handleAddTask()">Add review</button>
+
+        </aside>
+    </div>
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
