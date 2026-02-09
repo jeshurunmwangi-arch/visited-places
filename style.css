@@ -52,7 +52,7 @@ input, select {
     border:none;
     border-radius: var(--radius);
     background: var(--primary);
-    color: white;
+    color: black;
     font-weight: bold;
     cursor: pointer;
     transition:0.2s;
